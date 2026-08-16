@@ -1,25 +1,23 @@
-# GitHub Release 게시 기록
+# GitHub Release v0.2.0
 
-- 태그: `v0.1.0`
-- 제목: `기동전사 건담 신 기렌의 야망 한국어 패치 v0.1.0`
+- 태그: `v0.2.0`
+- 제목: `기동전사 건담 신 기렌의 야망 한국어 패치 v0.2.0`
 - 첨부 파일: `Shin_Gihren_no_Yabou_KO.xdelta`
-- 상태: `PUBLISHED`
-- URL: https://github.com/TeamLimRyan/KIDOU_SENSHI_GUNDAM_SHIN_GIHREN_NO_YABOU_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.1.0
-- 게시 시각: `2026-08-16T03:13:14Z`
-- 불변 Release: 활성화
+- 상태: `OWNER_APPROVED_PUBLICATION`
+- 예정 URL: https://github.com/TeamLimRyan/KIDOU_SENSHI_GUNDAM_SHIN_GIHREN_NO_YABOU_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.2.0
 
 ---
 
 PSP 일본판 `機動戦士ガンダム 新ギレンの野望` 1.01 (`NPJH50441`)용 비공식 한국어 패치입니다.
 
-## 주요 내용
+## v0.2.0 변경 사항
 
-- 발견·검증된 번역 대상 텍스트 필드 3,803/3,803 반영
-- 최종 이미지 적용 매니페스트 8,914개 반영
-- 이벤트 캡션 156개, 보이스 캡션 5,529개 및 런타임 제어 7,424개 검증
-- 8×8 셀용 한글 443자 하이브리드 인코딩 적용
-- PPSSPP v1.20.4 새 부팅으로 NEW GAME부터 전략·특별 계획 메뉴까지 검증
-- xdelta 복호화 결과가 최종 검수 ISO와 전체 바이트 단위로 일치
+- 모든 기체의 한계 퍼센트가 0%로 표시되던 마스터 데이터 필드 경계 오류 수정
+- 기체 627/627개의 한계 수치 바이트를 일본판 원본과 동일하게 보존
+- 특별 계획 효과·설명 패널 137개 한국어화
+- `연설`, `제1차 강하 작전`을 포함한 누락 패널 전수 반영
+- 137/137 GIMP 원본보존 QA 통과, 마스크 밖 변경 0픽셀
+- 기존 v0.1.0의 나머지 파일을 유지하고 pack02 수정 대상만 선택적으로 교체
 
 ## 필수 원본
 
@@ -34,16 +32,20 @@ SHA-256  5c23bbf4bb0415edb04b00b3cadbcfa9c1d6fd776a5ef838408ccda682f44cc5
 
 ```text
 파일     Shin_Gihren_no_Yabou_KO.xdelta
-크기     43,691,745 bytes
-SHA-256  fc5e0c50d425b5a2f475c2cf2d0164dd66ba57d3effe6f4ea26c17a95d411587
+크기     45,466,271 bytes
+SHA-256  dd827e4845a4c208738cedd65525305e6235378cd377ad4b425188e44ef0a701
 ```
 
 ## 정상 적용 결과
 
 ```text
 크기     1,667,629,056 bytes
-SHA-256  f64044662f58e7e46df4a75c83ba88f82bae93386d7ef7713c7aef8574ca715b
+SHA-256  29daf7a10554d6d6f37770481271bc641d531410b78542677173c90cbff5890f
 ```
+
+xdelta를 깨끗한 원본에 적용한 결과가 목표 ISO와 SHA-256 및 전체 바이트 단위로 일치함을 확인했습니다.
+v0.1.0은 PPSSPP v1.20.4에서 NEW GAME부터 전략·특별 계획 메뉴까지 검증했지만, v0.2.0 변경분은
+사용자의 요청에 따라 별도 에뮬레이터 재검증 없이 정적 역추출·픽셀·xdelta 왕복 검증 후 배포합니다.
 
 전체 시나리오 장기 플레이와 실제 PSP 하드웨어 검증은 아직 완료하지 않았습니다. 소유자 결정에
 따라 타이틀 로고는 일본어 원본을 유지합니다. 설치법과 공개된 한계는 저장소 문서를 확인하십시오.

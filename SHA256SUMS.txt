@@ -1,7 +1,7 @@
-fc5e0c50d425b5a2f475c2cf2d0164dd66ba57d3effe6f4ea26c17a95d411587  Shin_Gihren_no_Yabou_KO.xdelta
+dd827e4845a4c208738cedd65525305e6235378cd377ad4b425188e44ef0a701  Shin_Gihren_no_Yabou_KO.xdelta
 
 # Supported source ISO (not distributed)
 5c23bbf4bb0415edb04b00b3cadbcfa9c1d6fd776a5ef838408ccda682f44cc5  Kidou Senshi Gundam Shin Gihren no Yabou (1.01).iso
 
 # Expected patched ISO (not distributed)
-f64044662f58e7e46df4a75c83ba88f82bae93386d7ef7713c7aef8574ca715b  Shin_Gihren_no_Yabou_KO_v0.1.0.iso
+29daf7a10554d6d6f37770481271bc641d531410b78542677173c90cbff5890f  Shin_Gihren_no_Yabou_KO_v0.2.0.iso

@@ -43,7 +43,7 @@ Python 3과 `xdelta3`가 PATH에 등록되어 있다면 저장소 루트에서 �
 python scripts/apply_patch.py "Kidou Senshi Gundam Shin Gihren no Yabou (1.01).iso"
 ```
 
-기본 출력 파일은 `Shin_Gihren_no_Yabou_KO_v0.1.0.iso`입니다. 다른 위치를 지정하려면 두 번째
+기본 출력 파일은 `Shin_Gihren_no_Yabou_KO_v0.2.0.iso`입니다. 다른 위치를 지정하려면 두 번째
 인수를 사용합니다.
 
 ```powershell
@@ -64,20 +64,20 @@ python scripts/apply_patch.py "원본.iso" --xdelta "C:\Tools\xdelta3.exe"
 ```powershell
 xdelta3 -d -s "Kidou Senshi Gundam Shin Gihren no Yabou (1.01).iso" `
   "Shin_Gihren_no_Yabou_KO.xdelta" `
-  "Shin_Gihren_no_Yabou_KO_v0.1.0.iso"
+  "Shin_Gihren_no_Yabou_KO_v0.2.0.iso"
 ```
 
 ## 5. 결과 확인
 
 ```powershell
-Get-FileHash "Shin_Gihren_no_Yabou_KO_v0.1.0.iso" -Algorithm SHA256
+Get-FileHash "Shin_Gihren_no_Yabou_KO_v0.2.0.iso" -Algorithm SHA256
 ```
 
 정상 결과:
 
 ```text
 크기     1,667,629,056 bytes
-SHA-256  f64044662f58e7e46df4a75c83ba88f82bae93386d7ef7713c7aef8574ca715b
+SHA-256  29daf7a10554d6d6f37770481271bc641d531410b78542677173c90cbff5890f
 ```
 
 ## 6. 실행
