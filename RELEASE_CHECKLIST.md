@@ -28,11 +28,11 @@
 - [x] `TeamLimRyan` 계정 재확인
 - [x] 공개 저장소 생성 및 `main` 푸시
 - [x] Issues와 Actions 활성 상태 확인
-- [ ] 불변 태그 `v0.1.0` 생성
-- [ ] GitHub Release 생성 및 루트 xdelta 직접 첨부
-- [ ] 원격 자산 크기·digest 조회
-- [ ] 새 폴더로 원격 자산 재다운로드 및 SHA-256 재검증
-- [ ] 원격 Git 트리의 금지 파일 재감사
-- [ ] `STATUS.json`을 `PUBLISHED`로 갱신
+- [x] 불변 태그 `v0.1.0` 생성
+- [x] GitHub Release 생성 및 루트 xdelta 직접 첨부
+- [x] 원격 자산 크기·digest 조회
+- [x] 새 폴더로 원격 자산 재다운로드 및 SHA-256 재검증
+- [x] 원격 Git 트리의 금지 파일 재감사
+- [x] `STATUS.json`을 `PUBLISHED`로 갱신
 
-이 문서의 소유자 검수 항목이 승인되기 전에는 저장소 생성, 푸시, 태그 또는 Release 공개를 하지 않습니다.
+소유자 승인 후 모든 공개·원격 검증 항목을 완료했습니다.

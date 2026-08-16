@@ -1,9 +1,9 @@
 # 기동전사 건담 신 기렌의 야망 한국어 패치
 
-> **v0.1.0 공개 Release 준비 — `PUBLIC_REPOSITORY_CREATED`**
+> **v0.1.0 공개 릴리스 — `PUBLISHED`**
 
 PSP 일본판 `機動戦士ガンダム 新ギレンの野望` 1.01용 비공식 한국어 현지화 패치 배포 저장소입니다.
-소유자 공개 승인 후 GitHub 공개 저장소와 `main` 게시를 완료했으며 Release 게시 절차를 진행합니다.
+소유자 공개 승인을 거쳐 GitHub 공개 저장소와 불변 Release 게시를 완료했습니다.
 
 - 플랫폼: PlayStation Portable
 - 게임 ID: `NPJH50441`
@@ -32,8 +32,9 @@ PSP 일본판 `機動戦士ガンダム 新ギレンの野望` 1.01용 비공식
 - 크기: `43,691,745 bytes`
 - SHA-256: `fc5e0c50d425b5a2f475c2cf2d0164dd66ba57d3effe6f4ea26c17a95d411587`
 
-검수 승인 후 GitHub Releases의 `v0.1.0`에 같은 파일을 직접 첨부합니다. 저장소와 릴리스에는
-원본 ISO, 완성 ISO, BIOS, 펌웨어, 키, 세이브 또는 에뮬레이터 상태 파일을 포함하지 않습니다.
+최신 안정판은 [GitHub Releases의 v0.1.0](https://github.com/TeamLimRyan/KIDOU_SENSHI_GUNDAM_SHIN_GIHREN_NO_YABOU_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.1.0)에서
+xdelta 패치를 받을 수 있습니다. 저장소와 릴리스에는 원본 ISO, 완성 ISO, BIOS, 펌웨어, 키,
+세이브 또는 에뮬레이터 상태 파일을 포함하지 않습니다.
 
 ## 설치
 

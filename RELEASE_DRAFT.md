@@ -1,9 +1,12 @@
-# GitHub Release 초안
+# GitHub Release 게시 기록
 
 - 태그: `v0.1.0`
 - 제목: `기동전사 건담 신 기렌의 야망 한국어 패치 v0.1.0`
 - 첨부 파일: `Shin_Gihren_no_Yabou_KO.xdelta`
-- 상태: 소유자 공개 승인 완료
+- 상태: `PUBLISHED`
+- URL: https://github.com/TeamLimRyan/KIDOU_SENSHI_GUNDAM_SHIN_GIHREN_NO_YABOU_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.1.0
+- 게시 시각: `2026-08-16T03:13:14Z`
+- 불변 Release: 활성화
 
 ---
 
