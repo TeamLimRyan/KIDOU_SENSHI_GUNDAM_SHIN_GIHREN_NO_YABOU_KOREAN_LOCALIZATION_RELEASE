@@ -11,7 +11,7 @@ PSP 일본판 `機動戦士ガンダム 新ギレンの野望` 1.01용 비공식
 - 원본 크기: `1,667,629,056 bytes`
 - 원본 SHA-256: `5c23bbf4bb0415edb04b00b3cadbcfa9c1d6fd776a5ef838408ccda682f44cc5`
 - 최신 태그: `v0.2.0`
-- 예정 저장소: `TeamLimRyan/KIDOU_SENSHI_GUNDAM_SHIN_GIHREN_NO_YABOU_KOREAN_LOCALIZATION_RELEASE`
+- 저장소: `TeamLimRyan/KIDOU_SENSHI_GUNDAM_SHIN_GIHREN_NO_YABOU_KOREAN_LOCALIZATION_RELEASE`
 
 ## 반영 범위
 

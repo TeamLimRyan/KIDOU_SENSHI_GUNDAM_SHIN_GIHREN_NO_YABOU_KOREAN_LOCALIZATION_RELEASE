@@ -1,5 +1,5 @@
 {
-  "release_state": "OWNER_APPROVED_PUBLICATION",
+  "release_state": "PUBLISHED",
   "version": "v0.2.0",
   "repository": "TeamLimRyan/KIDOU_SENSHI_GUNDAM_SHIN_GIHREN_NO_YABOU_KOREAN_LOCALIZATION_RELEASE",
   "repository_description": "기동전사 건담 신 기렌의 야망 (NPJH50441) 비공식 한국어 패치",
@@ -8,9 +8,9 @@
     "tag": "v0.2.0",
     "title": "기동전사 건담 신 기렌의 야망 한국어 패치 v0.2.0",
     "url": "https://github.com/TeamLimRyan/KIDOU_SENSHI_GUNDAM_SHIN_GIHREN_NO_YABOU_KOREAN_LOCALIZATION_RELEASE/releases/tag/v0.2.0",
-    "published_at": null,
-    "tag_commit": null,
-    "immutable": false
+    "published_at": "2026-08-16T09:46:42Z",
+    "tag_commit": "101bdc3c8821f0d48d227c8b362a7a991c40b299",
+    "immutable": true
   },
   "source": {
     "platform": "PlayStation Portable",
@@ -28,9 +28,9 @@
     "format": "VCDIFF/xdelta3 3.2.0",
     "secondary_compressor": "lzma",
     "application_header": false,
-    "release_asset_url": null,
-    "remote_digest": null,
-    "remote_download_verification": "PENDING"
+    "release_asset_url": "https://github.com/TeamLimRyan/KIDOU_SENSHI_GUNDAM_SHIN_GIHREN_NO_YABOU_KOREAN_LOCALIZATION_RELEASE/releases/download/v0.2.0/Shin_Gihren_no_Yabou_KO.xdelta",
+    "remote_digest": "sha256:dd827e4845a4c208738cedd65525305e6235378cd377ad4b425188e44ef0a701",
+    "remote_download_verification": "PASS_EXACT_MATCH"
   },
   "target": {
     "filename_example": "Shin_Gihren_no_Yabou_KO_v0.2.0.iso",
@@ -85,9 +85,9 @@
     "xdelta_decode_roundtrip": "PASS_EXACT_MATCH",
     "absolute_workspace_path_matches_in_patch": 0,
     "forbidden_release_files": 0,
-    "remote_tag_tree_forbidden_files": null,
-    "remote_tag_tree_oversized_files": null,
-    "remote_tag_integrity_action": null
+    "remote_tag_tree_forbidden_files": 0,
+    "remote_tag_tree_oversized_files": 0,
+    "remote_tag_integrity_action": "https://github.com/TeamLimRyan/KIDOU_SENSHI_GUNDAM_SHIN_GIHREN_NO_YABOU_KOREAN_LOCALIZATION_RELEASE/actions/runs/31939935344"
   },
   "prepared_at_utc": "2026-08-16T09:38:00Z"
 }
