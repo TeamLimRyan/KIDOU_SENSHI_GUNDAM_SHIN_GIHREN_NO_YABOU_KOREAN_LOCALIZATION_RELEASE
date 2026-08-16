@@ -1,9 +1,9 @@
 # 기동전사 건담 신 기렌의 야망 한국어 패치
 
-> **v0.1.0 공개 배포 승인본 — `OWNER_APPROVED_PUBLICATION`**
+> **v0.1.0 공개 Release 준비 — `PUBLIC_REPOSITORY_CREATED`**
 
 PSP 일본판 `機動戦士ガンダム 新ギレンの野望` 1.01용 비공식 한국어 현지화 패치 배포 저장소입니다.
-소유자 공개 승인을 받은 로컬 준비본이며 GitHub 게시 절차를 진행합니다.
+소유자 공개 승인 후 GitHub 공개 저장소와 `main` 게시를 완료했으며 Release 게시 절차를 진행합니다.
 
 - 플랫폼: PlayStation Portable
 - 게임 ID: `NPJH50441`

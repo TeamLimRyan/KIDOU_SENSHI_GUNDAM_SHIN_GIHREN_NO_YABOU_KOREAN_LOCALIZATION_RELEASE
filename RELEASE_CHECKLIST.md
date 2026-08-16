@@ -25,9 +25,9 @@
 
 ## 승인 후에만 실행
 
-- [ ] `TeamLimRyan` 계정 재확인
-- [ ] 공개 저장소 생성 및 `main` 푸시
-- [ ] Issues와 Actions 활성 상태 확인
+- [x] `TeamLimRyan` 계정 재확인
+- [x] 공개 저장소 생성 및 `main` 푸시
+- [x] Issues와 Actions 활성 상태 확인
 - [ ] 불변 태그 `v0.1.0` 생성
 - [ ] GitHub Release 생성 및 루트 xdelta 직접 첨부
 - [ ] 원격 자산 크기·digest 조회
