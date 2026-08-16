@@ -1,0 +1,76 @@
+{
+  "release_state": "OWNER_APPROVED_PUBLICATION",
+  "version": "v0.1.0",
+  "repository": "TeamLimRyan/KIDOU_SENSHI_GUNDAM_SHIN_GIHREN_NO_YABOU_KOREAN_LOCALIZATION_RELEASE",
+  "repository_description": "기동전사 건담 신 기렌의 야망 (NPJH50441) 비공식 한국어 패치",
+  "external_publication": false,
+  "release": {
+    "tag": "v0.1.0",
+    "title": "기동전사 건담 신 기렌의 야망 한국어 패치 v0.1.0",
+    "url": null,
+    "published_at": null,
+    "tag_commit": null
+  },
+  "source": {
+    "platform": "PlayStation Portable",
+    "disc_id": "NPJH50441",
+    "disc_version": "1.01",
+    "filename_example": "Kidou Senshi Gundam Shin Gihren no Yabou (1.01).iso",
+    "size": 1667629056,
+    "sha256": "5c23bbf4bb0415edb04b00b3cadbcfa9c1d6fd776a5ef838408ccda682f44cc5",
+    "distributed": false
+  },
+  "patch": {
+    "path": "Shin_Gihren_no_Yabou_KO.xdelta",
+    "size": 43691745,
+    "sha256": "fc5e0c50d425b5a2f475c2cf2d0164dd66ba57d3effe6f4ea26c17a95d411587",
+    "format": "VCDIFF/xdelta3 3.2.0",
+    "application_header": false,
+    "release_asset_url": null,
+    "remote_digest": null,
+    "remote_download_verification": "NOT_PUBLISHED"
+  },
+  "target": {
+    "filename_example": "Shin_Gihren_no_Yabou_KO_v0.1.0.iso",
+    "size": 1667629056,
+    "sha256": "f64044662f58e7e46df4a75c83ba88f82bae93386d7ef7713c7aef8574ca715b",
+    "roundtrip_match": true,
+    "binary_compare_match": true,
+    "distributed": false
+  },
+  "coverage": {
+    "discovered_text_fields": 4087,
+    "translation_required_fields": 3803,
+    "translated_fields": 3803,
+    "hangul_glyphs": 443,
+    "single_byte_hangul_glyphs": 37,
+    "double_byte_hangul_glyphs": 406,
+    "image_manifest_targets": 8914,
+    "changed_image_targets": 8680,
+    "approved_identity_passthrough_targets": 234,
+    "event_caption_targets": 156,
+    "voice_caption_targets": 5529,
+    "voice_runtime_control_occurrences": 7424
+  },
+  "runtime_qa": {
+    "emulator": "PPSSPP v1.20.4",
+    "fresh_boot": true,
+    "route": "warning -> title -> NEW GAME -> scenario -> difficulty -> support team -> start -> event caption -> voice caption -> strategy main -> special plans",
+    "hash_bound_screenshots": 6,
+    "route_result": "PASS",
+    "full_playthrough": false,
+    "original_psp_hardware_tested": false
+  },
+  "intentional_original_assets": [
+    "Japanese title logo retained by owner decision"
+  ],
+  "audit": {
+    "completion_manifest_sha256": "59570d62e3cde12f42b36ef21427a1c0a014a7abf085b63ac2975b25fae629b9",
+    "completion_manifest_failures": 0,
+    "caption_storage_failures": 0,
+    "xdelta_decode_roundtrip": "PASS_EXACT_MATCH",
+    "absolute_workspace_path_matches_in_patch": 0,
+    "forbidden_release_files": 0
+  },
+  "prepared_at_utc": "2026-08-15T17:36:03.0885692Z"
+}

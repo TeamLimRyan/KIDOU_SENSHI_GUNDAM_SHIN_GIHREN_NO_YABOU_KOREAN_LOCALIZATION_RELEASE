@@ -1,0 +1,88 @@
+name: 한국어 패치 오류 제보
+description: 패치 적용, 실행, 번역 또는 그래픽 문제를 제보합니다.
+title: "[분류] 간단한 문제 요약"
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ISO, BIOS, 키, 세이브 또는 에뮬레이터 상태 파일은 첨부하지 마십시오. 해시는 전체 64자를 적어 주세요.
+  - type: dropdown
+    id: category
+    attributes:
+      label: 문제 분류
+      options:
+        - patch-apply
+        - runtime
+        - translation
+        - graphics
+    validations:
+      required: true
+  - type: input
+    id: patch-version
+    attributes:
+      label: 패치 버전
+      placeholder: v0.1.0
+    validations:
+      required: true
+  - type: input
+    id: source-hash
+    attributes:
+      label: 원본 ISO SHA-256
+    validations:
+      required: true
+  - type: input
+    id: patch-hash
+    attributes:
+      label: xdelta 패치 SHA-256
+    validations:
+      required: true
+  - type: input
+    id: output-hash
+    attributes:
+      label: 패치 결과 ISO SHA-256
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 운영체제와 에뮬레이터/도구 버전
+      placeholder: Windows 11 / PPSSPP 1.20.4 / xdelta3 3.2.0
+    validations:
+      required: true
+  - type: textarea
+    id: settings
+    attributes:
+      label: PPSSPP 그래픽 및 실행 설정
+      description: 렌더링 해상도, 필터, 셰이더, 배율과 새 부팅 여부를 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 순서
+      description: 시나리오와 어느 화면에서 어떤 조작을 했는지 순서대로 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대 결과와 실제 결과
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 개인정보를 가린 스크린샷
+      description: 로컬 경로, 사용자명 또는 개인 식별 정보가 보이지 않게 가려 주세요.
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: 확인
+      options:
+        - label: ISO, BIOS, 키, 세이브 또는 에뮬레이터 상태 파일을 첨부하지 않았습니다.
+          required: true
+        - label: 과거 세이브스테이트가 아닌 새 부팅에서도 재현했습니다.
+          required: true
+        - label: 기존 Issues에서 같은 문제를 검색했습니다.
+          required: true
